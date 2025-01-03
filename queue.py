@@ -47,3 +47,4 @@ while True:
         break
     else:
         print("Enter Valid Choice:")
+ # type: ignore
