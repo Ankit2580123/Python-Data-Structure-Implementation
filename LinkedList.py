@@ -42,7 +42,7 @@ class LinkedList:
         count=0
         
         # Traverse the list to find the node at the given position
-        while current and count <idx-1:
+        while current is not None and count !=idx-1:
             current=current.next
             count+=1
        
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     linked_list.insert_at_beginning(5)
     linked_list.insert_at_beginning(100)
 
-    # linked_list.insert_at_position(16,4)
+    linked_list.insert_at_position(16,4)
     # linked_list.delete_at_position(2)
 
 
